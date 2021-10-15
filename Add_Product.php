@@ -9,8 +9,8 @@
 		$result=pg_query($conn, $sqlstring);
 		echo"<select name='CategoryList' class='form-control'>
 		<option value='0'>Choose category</option>";
-		while($row=pgsql_fetch_array($result, PGSQL_ASSOC)){
-			echo"<option value='".$row['Cat_ID']."'>".$row['Cat_Name'].
+		while($row=pg_fetch_array($result,Null, PGSQL_ASSOC)){
+			echo"<option value='".$row['cat_id']."'>".$row['Cat_Name'].
 			"</option>";
 		}
 		echo"</select>";
@@ -51,14 +51,14 @@ if(isset($_POST["btnAdd"]))
 		if($pic['type']=="image/jpg"||$pic['type']=="image/jpeg"||$pic['type']=="image/png"||
 		$pic['type']=="image/gif"){
 			if($pic['size']<=614400){
-				$sq="select * from product where Product_ID='$id' or Product_Name='$proname'";
+				$sq="select * from product where product_id='$id' or product_name='$proname'";
 				$result=pg_query($conn,$sq);
 				if(pg_num_rows($result)==0)
 				{
 					copy($pic['tmp_name'],"product-imgs/".$pic['name']);
 					$filePic=$pic['name'];
-					$sqlstring="INSERT INTO product(Product_ID,Product_Name,Price,SmallDesc,
-					DetailDesc,ProDate,Pro_qty,Pro_image, Cat_ID)
+					$sqlstring="INSERT INTO product(product_id,product_name,price,smalldesc,
+					detaildesc,prodate,pro_qty,pro_image, cat_id)
 					VALUES ('$id','$proname','$price','$short','$detail','".date('Y-m-d H:i:s')."',
 					'$qty','$filePic','$category')";
 					pg_query($conn,$sqlstring);
