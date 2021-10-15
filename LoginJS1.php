@@ -20,7 +20,7 @@
         if(isset($_POST['btnLogin']))
         {
             $us = $_POST['txtUsername'];
-            $us=mysqli_real_escape_string($conn,$us);
+            $us=pg_real_escape_string($conn,$us);
             $pa = $_POST['txtPass'];
             $err="";
             if($us == "")
@@ -40,10 +40,10 @@
                 /*echo "You are logged in with $us and password $pa";*/
                 include_once("connection.php");
                 $pass = md5($pa);
-                $res1 = mysqli_query($conn,"SELECT Username, Password,state FROM Customer WHERE Username='$us' AND Password='$pass'") or 
-                die(mysqli_error($conn));
-                $row1=mysqli_fetch_array($res1,MYSQLI_ASSOC);
-                if(mysqli_num_rows($res1)==1)
+                $res1 = pg_query($conn,"SELECT Username, Password,state FROM Customer WHERE Username='$us' AND Password='$pass'") or 
+                die(pg_error($conn));
+                $row1=pgsql_fetch_array($res1,PGSQL_ASSOC);
+                if(pg_num_rows($res1)==1)
                 {
                     $_SESSION['us']=$us;
                     $_SESSION['admin']=$row1["state"];

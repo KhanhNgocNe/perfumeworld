@@ -26,11 +26,11 @@ else
         if(isset($_GET["id"])){
             $id=$_GET["id"];
             $sq="SELECT Pro_image from product WHERE Product_ID='$id'";
-            $res=mysqli_query($conn,$sq);
-            $row=mysqli_fetch_array($res,MYSQLI_ASSOC);
+            $res=pg_query($conn,$sq);
+            $row=pgsql_fetch_array($res,PGSQL_ASSOC);
             $filePic=$row['Pro_image'];
             unlink("product-imgs/".$filePic);
-            mysqli_query($conn,"DELETE FROM product Where Product_ID='$id'");
+            pgsql_query($conn,"DELETE FROM product Where Product_ID='$id'");
         }
     }
     ?>
@@ -61,12 +61,12 @@ else
             <?php
                  include_once("connection.php");
 				$No=1;
-                $result =mysqli_query($conn, "SELECT Product_ID, Product_Name, 
+                $result =pg_query($conn, "SELECT Product_ID, Product_Name, 
                 Price, Pro_qty, Pro_image, Cat_Name
                 From product a, category b
                 where a.Cat_ID = b.Cat_ID ORDER BY ProDate DESC");
 
-                while ($row=mysqli_fetch_array($result, MYSQLI_ASSOC)){
+                while ($row=pgsql_fetch_array($result, PGSQL_ASSOC)){
 
 			?>
 			<tr>

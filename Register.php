@@ -49,13 +49,13 @@ if(isset($_POST['btnRegister'])){
         include_once("connection.php");
         $pass=md5($pass1);
         $sq="SELECT * FROM customer WHERE Username='$us' OR email='$email'";
-        $res=mysqli_query($conn,$sq);
-        if(mysqli_num_rows($res)==0)
+        $res=pg_query($conn,$sq);
+        if(pg_num_rows($res)==0)
         {
-            mysqli_query($conn,"INSERT INTO customer(Username,Password,CustName,gender,Address,telephone,email,CusDate,
+            pg_query($conn,"INSERT INTO customer(Username,Password,CustName,gender,Address,telephone,email,CusDate,
             CusMonth,CusYear,SSN,ActiveCode,state)
             VALUES ('$us','$pass','$fullname','$sex','$address','$tel','$email','$date',
-            '$month','$year','','',0)") or die(mysqli_error($conn));
+            '$month','$year','','',0)") or die(pg_error($conn));
             echo'<meta http-equiv="refresh" content="0;URL=?page=login"/>';
         }
         else{

@@ -19,12 +19,12 @@
       <div class="row text-center">
       <?php
                 // 	include_once("database.php");
-        $result = mysqli_query($conn, "SELECT * FROM product where Cat_ID ='P002'");
+        $result = pg_query($conn, "SELECT * FROM product where Cat_ID ='P002'");
         
           if (!$result) { //add this check.
-            die('Invalid query: ' . mysqli_error($conn));
+            die('Invalid query: ' . pg_error($conn));
                         }
-          while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
+          while($row = pgsql_fetch_array($result, PGSQL_ASSOC)){
         ?>
         <div class="col-sm-3">
           <div class="thumbnail" style="background: #F2F2F2;">
