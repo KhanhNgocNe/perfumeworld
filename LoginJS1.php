@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel = " stylesheet " href = " http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+   
   </head>
 
 
@@ -20,7 +20,7 @@
         if(isset($_POST['btnLogin']))
         {
             $us = $_POST['txtUsername'];
-            $us=pg_real_escape_string($conn,$us);
+            $us=pg_escape_string($conn,$us);
             $pa = $_POST['txtPass'];
             $err="";
             if($us == "")
@@ -40,9 +40,9 @@
                 /*echo "You are logged in with $us and password $pa";*/
                 include_once("connection.php");
                 $pass = md5($pa);
-                $res1 = pg_query($conn,"SELECT Username, Password,state FROM Customer WHERE Username='$us' AND Password='$pass'") or 
+                $res1 = pg_query($conn,"SELECT username, password,state FROM customer WHERE username='$us' AND password='$pass'") or 
                 die(pg_error($conn));
-                $row1=pgsql_fetch_array($res1,PGSQL_ASSOC);
+                $row1=pg_fetch_array($res1,Null, PGSQL_ASSOC);
                 if(pg_num_rows($res1)==1)
                 {
                     $_SESSION['us']=$us;
