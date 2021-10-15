@@ -22,7 +22,7 @@
 				echo"<ul>$err</ul>";
 			}
 			else{
-				$sq="select * from category where Cat_ID='$id' or Cat_Name='$name'";
+				$sq="select * from category where cat_id='$id' or cat_name='$name'";
 				$result=pg_query($conn,$sq);
 				if(pg_num_rows($result)==0)
 				{

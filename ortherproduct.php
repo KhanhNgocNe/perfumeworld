@@ -19,7 +19,7 @@
       <div class="row text-center">
       <?php
                 // 	include_once("database.php");
-        $result = pgsql_query($conn, "SELECT * FROM product where Cat_ID !='P001' and Cat_ID !='P002' and Cat_ID !='P003' and Cat_ID !='P004' and Cat_ID !='P005' and Cat_ID !='P006'");
+        $result = pgsql_query($conn, "SELECT * FROM product where cat_id !='P001' and cat_id !='P002' and cat_id !='P003' and cat_id !='P004' and cat_id !='P005' and cat_id !='P006'");
         
           if (!$result) { //add this check.
             die('Invalid query: ' . pg_error($conn));
