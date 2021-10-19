@@ -24,11 +24,11 @@
           if (!$result) { //add this check.
             die('Invalid query: ' . pg_error($conn));
                         }
-          while($row = pgsql_fetch_array($result,Null, PGSQL_ASSOC)){
+          while($row = pg_fetch_array($result,Null, PGSQL_ASSOC)){
         ?>
         <div class="col-sm-3">
           <div class="thumbnail" style="background: #F2F2F2;">
-          <img src="product-imgs/<?php echo $row['Pro_image']?>" alt="Product" width="400" height="300">
+          <img src="product-imgs/<?php echo $row['pro_image']?>" alt="Product" width="400" height="300">
             <p><strong><?php echo  $row['product_name']?></strong></p>
             <p>$<?php echo  $row['price']?></p>
             <a href="?page=cart"><button class="btn">Buy Now</button></a>
