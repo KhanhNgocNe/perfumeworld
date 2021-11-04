@@ -29,7 +29,6 @@
           if(ISSET($_POST['submit'])){
               $keyword = $_POST['search'];
       ?>
-      <div>
           <h2>Kết quả</h2>
           <?php
       
