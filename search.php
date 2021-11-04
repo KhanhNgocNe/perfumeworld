@@ -28,7 +28,7 @@
             echo '<meta http-equiv="refresh" content="0;URL=index.php">';
           }
          else {
-      $result = pg_query($conn, "SELECT * FROM product where product_id like '%".$data."%' or product_name like '%".$data."%'");
+      $result = pg_query($conn, "SELECT * FROM product where product_id like '%".$data."%' or product_name like '%"$data"%'");
 if(pg_num_rows($result)==0)
 {
 echo  "<script>alert('No find data. Please Enter Again!')</script>";
