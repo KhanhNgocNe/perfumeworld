@@ -39,7 +39,7 @@ if (!$result) { //add this check.
 die('Invalid query: ' . mysqli_error($conn));
 }
 else {
-while($row = pgsql_fetch_array($result, Null, MYSQLI_ASSOC)){
+while($row = pg_fetch_array($result, Null, PGSQL_ASSOC)){
 ?>
     <!--Display product-->
     <div class="col-sm-3">
