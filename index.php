@@ -29,11 +29,11 @@
                   <a class="navbar-brand" href="?page=home">PerfumeWorld</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
-                  <form class="navbar-form" >
+                  <form class="navbar-form" href="?page=search" >
                     <ul class="nav nav-bar navbar-left">
                     <div class="form-group">
                       <li><input type="text" name="search" class="form-control" placeholder="Search">
-                    <a href="?page=search"><button type="btn-group" name="submit" class="btn btn-default">Search</button></a></li></div>
+                    <button type="btn-group" name="submit" class="btn btn-default">Search</button></li></div>
                   </ul>
                   <div class="header">
                     <div class="nav navbar-nav navbar-right">
