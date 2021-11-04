@@ -32,9 +32,9 @@
                   <form class="navbar-form" >
                     <ul class="nav nav-bar navbar-left">
                     <div class="form-group">
-                      <li><input type="text" class="form-control" placeholder="Search">
+                      <li><input type="text" name="search" class="form-control" placeholder="Search">
                     </div>
-                    <button type="submit" class="btn btn-default">Search</button></li>
+                    <button type="submit" class="btn btn-default"><a href="?page=search">Search</a></button></li>
                   </ul>
                   <div class="header">
                     <div class="nav navbar-nav navbar-right">
@@ -161,6 +161,9 @@
           }
           else if($page=="update_customer"){
             include_once("Update_customer.php");
+          }
+          else if($page=="search"){
+            include_once("search.php");
           }
         }
     else{
