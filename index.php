@@ -34,7 +34,7 @@
                     <div class="form-group">
                       <li><input type="text" name="search" class="form-control" placeholder="Search">
                     </div>
-                    <button type="submit" class="btn btn-default"><a href="?page=search">Search</a></button></li>
+                    <a href="?page=search"><button type="submit" name="submit" class="btn btn-default">Search</button></li></a>
                   </ul>
                   <div class="header">
                     <div class="nav navbar-nav navbar-right">
