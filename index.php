@@ -33,8 +33,7 @@
                     <ul class="nav nav-bar navbar-left">
                     <div class="form-group">
                       <li><input type="text" name="search" class="form-control" placeholder="Search">
-                    </div>
-                    <a href="?page=search"><button type="btn-group" name="submit" class="btn btn-default">Search</button></a></li>
+                    <a href="?page=search"><button type="btn-group" name="submit" class="btn btn-default">Search</button></a></li></div>
                   </ul>
                   <div class="header">
                     <div class="nav navbar-nav navbar-right">
