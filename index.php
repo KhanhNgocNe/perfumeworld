@@ -31,9 +31,12 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                   <form class="navbar-form" href="?page=search" >
                     <ul class="nav nav-bar navbar-left">
-                    <div class="form-group">
-                      <li><input type="text" name="search" class="form-control" placeholder="Search">
-                    <button type="btn-group" name="submit" class="btn btn-default">Search</button></li></div>
+                    <form class="navbar-form navbar-left" action="index.php?page=search" method="post">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search" name="txtSearch">
+                        </div>
+                        <button type="submit" class="btn btn-default">Search</button>
+                    </form>
                   </ul>
                   <div class="header">
                     <div class="nav navbar-nav navbar-right">
