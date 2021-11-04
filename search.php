@@ -18,8 +18,29 @@
     <div class="container">
       <div class="row text-center">
       <?php
+      $servername='localhost';
+      $username='root'; // User mặc định là root
+      $password='';
+      $dbname = "data"; // Cơ sở dữ liệu
+      $conn=pg_connect($servername,$username,$password,$dbname);
+      if(!$conn){
+      die('Không thể kết nối Database:' .mysql_error());
+      }
+          if(ISSET($_POST['submit'])){
+              $keyword = $_POST['search'];
+      ?>
+      <div>
+          <h2>Kết quả</h2>
+          <?php
+      
                 // 	include_once("database.php");
-        $result = pg_query($conn, "SELECT * FROM product where title LIKE '%$keyword%' ORDER BY title");
+        $result = pg_query($conn, "SELECT * FROM product where title LIKE %$keyword%  ORDER BY title")or die(mysqli_error());
+        while($fetch = mysqli_fetch_array($query)){
+            ?>
+        <?php echo $fetch['title']?>
+        <p><?php echo substr($fetch['content'], 0, 100)?>...</p>
+    <?php
+        }
         
           if (!$result) { //add this check.
             die('Invalid query: ' . pg_error($conn));
