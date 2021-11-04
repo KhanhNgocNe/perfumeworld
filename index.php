@@ -29,8 +29,6 @@
                   <a class="navbar-brand" href="?page=home">PerfumeWorld</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
-                  <form class="navbar-form" href="?page=search" >
-                    <ul class="nav nav-bar navbar-left">
                     <form class="navbar-form navbar-left" action="index.php?page=search" method="post">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Search" name="txtSearch">
