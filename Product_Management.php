@@ -61,10 +61,10 @@ else
             <?php
                  include_once("connection.php");
 				$No=1;
-                $result =pg_query($conn, "SELECT Product_ID, Product_Name, 
-                Price, Pro_qty, Pro_image, Cat_Name
+                $result =pg_query($conn, "SELECT product_id, product_name, 
+                price, pro_qty, pro_image, cat_name
                 From product a, category b
-                where a.Cat_ID = b.Cat_ID ORDER BY ProDate DESC");
+                where a.cat_id = b.cat_id ORDER BY proDate DESC");
 
                 while ($row=pgsql_fetch_array($result, PGSQL_ASSOC)){
 
@@ -75,11 +75,11 @@ else
               <td><?php echo $row["Product_Name"]; ?></td>
               <td><?php echo $row["Price"]; ?></td>
               <td ><?php echo $row["Pro_qty"];  ?></td>
-              <td><?php echo $row["Cat_Name"]; ?></td>
+              <td><?php echo $row["cat_name"]; ?></td>
              <td align='center' >
                  <img src='product-imgs/<?php echo $row['Pro_image']?>' border='0' width="50" height="50"  /></td>
-             <td align='center' ><a href="?page=update_product&&id=<?php echo $row["Product_ID"];?>"><img src='image/edit.png' border='0'/></a></td>
-             <td align='center' ><a href="?page=product_management&&function=del&&id=<?php echo $row["Product_ID"];?>" onclick="return deleteConfirm()">
+             <td align='center' ><a href="?page=update_product&&id=<?php echo $row["product_id"];?>"><img src='image/edit.png' border='0'/></a></td>
+             <td align='center' ><a href="?page=product_management&&function=del&&id=<?php echo $row["product_id"];?>" onclick="return deleteConfirm()">
              <img src='image/delete.png' border='0' /></td>
             </tr>
             <?php
