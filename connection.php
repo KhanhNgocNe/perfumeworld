@@ -1,5 +1,5 @@
 <?php
-$conn = pg_connect("postgres://atrtvpahulshsq:c60ed240116df3b35ee51f04b977d962220c770a0eddd939fd70905e0e96b79a@ec2-34-203-91-150.compute-1.amazonaws.com:5432/dcvc7cnl1eepc");
+$conn = pg_connect("postgres://sfdaznhoxgmsiq:0e4555d493aedc569a6726bb2e4895b150e651f8b48918c1409c506ca5af1a76@ec2-52-200-155-213.compute-1.amazonaws.com:5432/ddvrq2iq529clf");
 	echo 'Connected Successfully!!!';
 	if(!$conn)
 	{
