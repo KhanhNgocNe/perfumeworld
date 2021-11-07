@@ -154,7 +154,6 @@ include_once("connection.php");
 </div>
 <div class="container">
   <div class="row margin-top">
-    <
     <div class="col-sm-8">
       <div class="row">
         <div class="col-sm-12 hidden-xs empty-block">
