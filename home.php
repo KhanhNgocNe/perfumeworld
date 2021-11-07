@@ -146,7 +146,7 @@ include_once("connection.php");
       </div>
     </div>
     
-    <hr size="5px", color="black">
+    <hr size="8px", color="black">
     <br>
     <br>
         </div>
@@ -154,8 +154,9 @@ include_once("connection.php");
 </div>
 <div class="container">
   <div class="row margin-top">
+
     <div class="col-sm-8">
-      <div class="row">
+
         <div class="col-sm-12 hidden-xs empty-block">
         </div>
       </div>
