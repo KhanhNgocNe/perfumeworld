@@ -146,17 +146,19 @@ include_once("connection.php");
       </div>
     </div>
     
-    <hr size="20px", color="black">
-    <br>
-    <br>
+  
         </div>
     </div>
    
 </div>
- <br>
- <div>
+
+
+ <hr size="20px", color="black">
+    <br>
+    <br> 
+    <br>
 <h1>SHOP BARBIE DOLL</h1>
-</div>
+
 <div class="container">
   <div class="row margin-top">
 
