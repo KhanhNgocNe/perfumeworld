@@ -76,13 +76,13 @@
 
           <div class="btn-group"style="background: #white;" >
           <a href="?page=allproduct"><button type="btn-group" class="btn btn-defaul">All Product</button></a>
-          <a href="?page=lv"><button type="btn-group" class="btn btn-defaul">Louis Vuitton</button></a>
-          <a href="?page=mcm"><button type="btn-group" class="btn btn-defaul">MCM</button></a>
-          <a href="?page=gucci"><button type="btn-group" class="btn btn-defaul">Gucci</button></a>
-          <a href="?page=lelabo"><button type="btn-group" class="btn btn-defaul">LeLaBo</button></a>
-          <a href="?page=chanel"><button type="btn-group" class="btn btn-defaul">Chanel</button></a>
-          <a href="?page=dior"><button type="btn-group" class="btn btn-defaul">Dior</button></a>
-          <a href="?page=ortherproduct"><button type="btn-group" class="btn btn-defaul">Orther Product</button></a>
+          <a href="?page=lv"><button type="btn-group" class="btn btn-defaul">Fashion Dolls</button></a>
+          <a href="?page=mcm"><button type="btn-group" class="btn btn-defaul">Ken Dolls</button></a>
+          <a href="?page=gucci"><button type="btn-group" class="btn btn-defaul">Sister & Pet Dolls</button></a>
+          <a href="?page=lelabo"><button type="btn-group" class="btn btn-defaul">Career Dolls</button></a>
+          <a href="?page=chanel"><button type="btn-group" class="btn btn-defaul">Magic Dolls</button></a>
+          <a href="?page=dior"><button type="btn-group" class="btn btn-defaul">Doll Clothes</button></a>
+          <a href="?page=ortherproduct"><button type="btn-group" class="btn btn-defaul">Playsets</button></a>
           <a href="?page=category_management"><button type="btn-group" class="btn btn-defaul">Management Category</button></a>
           <a href="?page=product_management"><button type="btn-group" class="btn btn-defaul">Management Product</button></a>
           <br>
