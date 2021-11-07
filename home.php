@@ -145,18 +145,6 @@ include_once("connection.php");
       </div>
     </div>
     <hr>
-        <p class="brand">Shop by brand</p>
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="well well-sm" style="background: white;">
-                <img src="image/lv.png"  style="width:5%" alt="Image">
-                <img src="image/gucci.jpg"  style="width:5%" alt="Image"> 
-                <img src="image/chanel.jpg"  style="width:5%" alt="Image">
-                <img src="image/lebabo.jpg"  style="width:5%" alt="Image">
-                <img src="image/mcm.jpg" style="width:3%" alt="Image">
-              </div>
-            </div>
-          </div>
         </div>
 </div>
 </div>
