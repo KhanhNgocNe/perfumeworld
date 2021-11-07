@@ -27,26 +27,26 @@ include_once("connection.php");
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="image/lebabo.discover.jpg" alt="Image">
+          <img src="image/coverbearbrick2.jpg" alt="Image">
           <div class="carousel-caption">
           </div>      
         </div>
   
         <div class="item">
-          <img src="image/mcm.gif" alt="Image">
+          <img src="image/coverbearbrick1.jpg" alt="Image">
           <div class="carousel-caption">
             
           </div>      
         </div>
 
         <div class="item">
-          <img src="image/louisvuitton.png" alt="Image">
+          <img src="image/covermafex1.jpg" alt="Image">
           <div class="carousel-caption">
           </div>      
         </div>
 
         <div class="item">
-          <img src="image/lv.gif" alt="Image">
+          <img src="image/barbiedoll" alt="Image">
           <div class="carousel-caption">
             <h3>More Sell $</h3>
             <p>Lorem ipsum...</p>
