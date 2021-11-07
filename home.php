@@ -191,7 +191,7 @@ include_once("connection.php");
           </div>
           <div class="row">
             <div class="col-sm-12 block8">
-            <img src="image/Doll8.png"class="image" style="width:100%" alt="Image">
+            <img src="image/Doll8.PNG"class="image" style="width:100%" alt="Image">
             </div>
           </div>
         </div>
