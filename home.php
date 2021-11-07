@@ -65,6 +65,7 @@ include_once("connection.php");
   </div>
 </div>
 
+<h1>SHOP BARBIE DOLL</h1>
 <div class="container-fluid bg-3 text-center">
   <div class="col-md-12">
     <div class="row">
