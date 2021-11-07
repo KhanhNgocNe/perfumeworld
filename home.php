@@ -79,8 +79,8 @@ include_once("connection.php");
       </div>
       <div class="col-sm-3">
         <div class="product">
-            <p>MCM</p>
-            <img src="image/mcm.perfume.jpg" class="image" style="width:100%" alt="Image">
+            <p>Fashion Dolls</p>
+            <img src="image/FashionDoll.png" class="image" style="width:100%" alt="Image">
             <div class="middle">
             <a href="?page=mcm"><button class="btn">Shop Now</button></a>
             </div>
@@ -88,7 +88,7 @@ include_once("connection.php");
       </div>
           <div class="col-sm-3">
             <div class="product">
-            <p>Dior</p>
+            <p>Ken Dolls</p>
             <img src="image/dior.perfume.png" class="image" style="width:100%" alt="Image">
             <div class="middle">
             <a href="?page=dior"><button class="btn">Shop Now</button></a>
@@ -97,7 +97,7 @@ include_once("connection.php");
         </div>
           <div class="col-sm-3">
             <div class="product">
-            <p>Gucci</p>
+            <p>Sister & Pet Dolls</p>
             <img src="image/gucci.perfume.jpg" class="image" style="width:100%" alt="Image">
             <div class="middle">
             <a href="?page=gucci"><button class="btn">Shop Now</button></a>
@@ -108,7 +108,7 @@ include_once("connection.php");
       <div class="row">
         <div class="col-sm-3">
           <div class="product">
-            <p>Louis Vuitton</p>
+            <p>Career Dolls</p>
               <img src="image/lv.perfume.jpg"class="image" style="width:100%" alt="Image">
               <div class="middle">
               <a href="?page=lv"><button class="btn">Shop Now</button></a>
@@ -117,7 +117,7 @@ include_once("connection.php");
       </div>
           <div class="col-sm-3"> 
             <div class="product">
-            <p>LeLaBo</p>
+            <p>Magic Dolls</p>
             <img src="image/lelabo.perfume.jpg" class="image" style="width:100%" alt="Image">
             <div class="middle">
             <a href="?page=lelabo"><button class="btn">Shop Now</button></a>
@@ -126,7 +126,7 @@ include_once("connection.php");
         </div>
           <div class="col-sm-3">
             <div class="product">
-            <p>Chanel</p>
+            <p>Playsets</p>
             <img src="image/chanel.perfume.jpg" class="image" style="width:100%" alt="Image">
             <div class="middle">
             <a href="?page=chanel" ><button class="btn">Shop Now</button></a>
@@ -135,7 +135,7 @@ include_once("connection.php");
       </div>
         <div class="col-sm-3">
             <div class="product">
-            <p>Orther Product</p>
+            <p>Doll Clothes</p>
             <img src="image/ortherproduct.jpg" class="image" style="width:100%" alt="Image">
             <div class="middle">
             <a href="?page=ortherproduct"><button class="btn">Shop Now</button></a>
