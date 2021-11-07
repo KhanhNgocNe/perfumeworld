@@ -33,20 +33,20 @@ include_once("connection.php");
         </div>
   
         <div class="item">
-          <img src="image/coverbearbrick1.jpg" alt="Image">
+          <img src="image/coverbearbrick3.jpg" alt="Image">
           <div class="carousel-caption">
             
           </div>      
         </div>
 
         <div class="item">
-          <img src="image/covermafex1.jpg" alt="Image">
+          <img src="image/covermafex2.jpg" alt="Image">
           <div class="carousel-caption">
           </div>      
         </div>
 
         <div class="item">
-          <img src="image/barbiedoll" alt="Image">
+          <img src="image/BarbieDoll.jpg" alt="Image">
           <div class="carousel-caption">
             <h3>More Sell $</h3>
             <p>Lorem ipsum...</p>
