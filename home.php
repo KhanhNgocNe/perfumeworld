@@ -146,7 +146,7 @@ include_once("connection.php");
       </div>
     </div>
     
-    <hr size="8px", color="black">
+    <hr size="20px", color="black">
     <br>
     <br>
         </div>
