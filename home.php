@@ -46,7 +46,7 @@ include_once("connection.php");
         </div>
 
         <div class="item">
-          <img src="image/BarbieDoll.jpg" alt="Image">
+          <img src="image/BarbieDoll.png" alt="Image">
           <div class="carousel-caption">
             <h3>More Sell $</h3>
             <p>Lorem ipsum...</p>
