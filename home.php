@@ -145,6 +145,8 @@ include_once("connection.php");
       </div>
     </div>
     <hr>
+    <br>
+    <br>
         </div>
 </div>
 </div>
