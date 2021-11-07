@@ -144,6 +144,7 @@ include_once("connection.php");
         </div>
       </div>
     </div>
+    <hr>
         <p class="brand">Shop by brand</p>
           <div class="row">
             <div class="col-sm-12">
