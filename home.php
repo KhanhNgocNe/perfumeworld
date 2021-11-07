@@ -152,11 +152,11 @@ include_once("connection.php");
    
 </div>
 
-
- <hr size="40px", color="black", align="center", width="70%">
-    <br>
     <br> 
     <br>
+ <hr size="40px", align="center", width="70%">
+    <br>
+    
 <h1>SHOP BARBIE DOLL</h1>
 
 <div class="container">
