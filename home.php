@@ -175,10 +175,10 @@ include_once("connection.php");
           </div>
           <div class="row">
             <div class="col-sm-6 block4">
-            <img src="image/Doll1.jpg"class="image" style="width:100%" alt="Image">
+            <img src="image/Doll2.jpg"class="image" style="width:100%" alt="Image">
             </div>
             <div class="col-sm-6 block5">
-              
+            <img src="image/Doll2.jpg"class="image" style="width:100%" alt="Image">
             </div>
           </div>
         </div>
