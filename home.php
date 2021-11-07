@@ -152,6 +152,59 @@ include_once("connection.php");
         </div>
     </div>
 </div>
+<div class="container">
+  <div class="row margin-top">
+    <
+    <div class="col-sm-8">
+      <div class="row">
+        <div class="col-sm-12 hidden-xs empty-block">
+        </div>
+      </div>
+      <div class="row">
+      </div>
+    </div>
+  </div>
+  <div class="row margin-top">
+    <div class="col-sm-12 block-contain">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="row">
+            <div class="col-sm-12 block3">
+            <img src="image/Doll1.jpg"class="image" style="width:100%" alt="Image">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 block4">
+            <img src="image/Doll1.jpg"class="image" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-6 block5">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 block6">
+          
+        </div>
+        <div class="col-sm-12 col-md-3">
+          <div class="row">
+            <div class="col-sm-12 block7">
+              
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 block8">
+              
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 block9">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="bg-1">
     <div class="container">
       <div class="row text-center">
