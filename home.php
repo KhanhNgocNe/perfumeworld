@@ -154,7 +154,7 @@ include_once("connection.php");
 
     <br> 
     <br>
- <hr size="40px", align="center", width="70%">
+ <hr size="40px", color="black" align="center", width="70%">
     <br>
     
 <h1>SHOP BARBIE DOLL</h1>
