@@ -89,7 +89,7 @@ include_once("connection.php");
           <div class="col-sm-3">
             <div class="product">
             <p>Ken Dolls</p>
-            <img src="image/dior.perfume.png" class="image" style="width:100%" alt="Image">
+            <img src="image/KenDolls.png" class="image" style="width:100%" alt="Image">
             <div class="middle">
             <a href="?page=dior"><button class="btn">Shop Now</button></a>
           </div>
@@ -109,7 +109,7 @@ include_once("connection.php");
         <div class="col-sm-3">
           <div class="product">
             <p>Career Dolls</p>
-              <img src="image/lv.perfume.jpg"class="image" style="width:100%" alt="Image">
+              <img src="image/CareerDolls.png"class="image" style="width:100%" alt="Image">
               <div class="middle">
               <a href="?page=lv"><button class="btn">Shop Now</button></a>
           </div>
@@ -118,7 +118,7 @@ include_once("connection.php");
           <div class="col-sm-3"> 
             <div class="product">
             <p>Magic Dolls</p>
-            <img src="image/lelabo.perfume.jpg" class="image" style="width:100%" alt="Image">
+            <img src="image/MagicDolls.png" class="image" style="width:100%" alt="Image">
             <div class="middle">
             <a href="?page=lelabo"><button class="btn">Shop Now</button></a>
             </div>  
