@@ -151,7 +151,9 @@ include_once("connection.php");
     <br>
         </div>
     </div>
+   
 </div>
+ <br>
 <h1>SHOP BARBIE DOLL</h1>
 <div class="container">
   <div class="row margin-top">
