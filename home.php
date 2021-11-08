@@ -83,7 +83,7 @@ include_once("connection.php");
             <p>Fashion Dolls</p>
             <img src="image/FashionDoll.png" class="image" style="width:100%" alt="Image">
             <div class="middle">
-            <a href="?page=mcm"><button class="btn">Shop Now</button></a>
+            <a href="?page=fashiondoll"><button class="btn">Shop Now</button></a>
             </div>
         </div>
       </div>
@@ -92,7 +92,7 @@ include_once("connection.php");
             <p>Ken Dolls</p>
             <img src="image/KenDolls.png" class="image" style="width:100%" alt="Image">
             <div class="middle">
-            <a href="?page=dior"><button class="btn">Shop Now</button></a>
+            <a href="?page=kendoll"><button class="btn">Shop Now</button></a>
           </div>
           </div>
         </div>
@@ -101,7 +101,7 @@ include_once("connection.php");
             <p>Sister & Pet Dolls</p>
             <img src="image/SisterDoll.png" class="image" style="width:100%" alt="Image">
             <div class="middle">
-            <a href="?page=gucci"><button class="btn">Shop Now</button></a>
+            <a href="?page=sisterdoll"><button class="btn">Shop Now</button></a>
           </div>
         </div>
       </div>
@@ -113,7 +113,7 @@ include_once("connection.php");
             <p>Career Dolls</p>
               <img src="image/CareerDolls.png"class="image" style="width:100%" alt="Image">
               <div class="middle">
-              <a href="?page=lv"><button class="btn">Shop Now</button></a>
+              <a href="?page=careerdoll"><button class="btn">Shop Now</button></a>
           </div>
         </div>
       </div>
@@ -122,7 +122,7 @@ include_once("connection.php");
             <p>Magic Dolls</p>
             <img src="image/MagicDolls.png" class="image" style="width:100%" alt="Image">
             <div class="middle">
-            <a href="?page=lelabo"><button class="btn">Shop Now</button></a>
+            <a href="?page=magicdoll"><button class="btn">Shop Now</button></a>
             </div>  
           </div>
         </div>
@@ -131,7 +131,7 @@ include_once("connection.php");
             <p>Playsets</p>
             <img src="image/Playsets.png" class="image" style="width:100%" alt="Image">
             <div class="middle">
-            <a href="?page=chanel" ><button class="btn">Shop Now</button></a>
+            <a href="?page=playsets" ><button class="btn">Shop Now</button></a>
           </div>
         </div>
       </div>
@@ -140,14 +140,14 @@ include_once("connection.php");
             <p>Doll Clothes</p>
             <img src="image/Clothes.png" class="image" style="width:100%" alt="Image">
             <div class="middle">
-            <a href="?page=ortherproduct"><button class="btn">Shop Now</button></a>
+            <a href="?page=clothes"><button class="btn">Shop Now</button></a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
-  
+
+
         </div>
     </div>
    
@@ -223,6 +223,8 @@ include_once("connection.php");
     </div>
   </div>
 </div>
+
+<h1 align="center">ALL PRODUCT</h1>
 <div class="bg-1">
     <div class="container">
       <div class="row text-center">
