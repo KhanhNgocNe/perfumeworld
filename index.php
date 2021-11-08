@@ -4,7 +4,7 @@
           <meta charset="UTF-8">
           <meta http-equiv="X-UA-Compatible" content="IE=edge">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title> PERFUMEWORLD.com </title>
+          <title> BarBie Doll ATN </title>
           <meta charset = " utf - 8 ">
           <meta name = " viewport " content = " width = device - width , initial - scale = 1 ">
           <link rel="stylesheet" href="style.css">
@@ -26,7 +26,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>                        
             </button>
-                  <a class="navbar-brand" href="?page=home">PerfumeWorld</a>
+                  <a class="navbar-brand" href="?page=home">BarBie Doll ATN</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <form class="navbar-form navbar-left" action="index.php?page=search" method="post">
@@ -76,13 +76,13 @@
 
           <div class="btn-group"style="background: #white;" >
           <a href="?page=allproduct"><button type="btn-group" class="btn btn-defaul">All Product</button></a>
-          <a href="?page=lv"><button type="btn-group" class="btn btn-defaul">Fashion Dolls</button></a>
-          <a href="?page=mcm"><button type="btn-group" class="btn btn-defaul">Ken Dolls</button></a>
-          <a href="?page=gucci"><button type="btn-group" class="btn btn-defaul">Sister & Pet Dolls</button></a>
-          <a href="?page=lelabo"><button type="btn-group" class="btn btn-defaul">Career Dolls</button></a>
-          <a href="?page=chanel"><button type="btn-group" class="btn btn-defaul">Magic Dolls</button></a>
-          <a href="?page=dior"><button type="btn-group" class="btn btn-defaul">Doll Clothes</button></a>
-          <a href="?page=ortherproduct"><button type="btn-group" class="btn btn-defaul">Playsets</button></a>
+          <a href="?page=fashiondoll"><button type="btn-group" class="btn btn-defaul">Fashion Dolls</button></a>
+          <a href="?page=kendoll"><button type="btn-group" class="btn btn-defaul">Ken Dolls</button></a>
+          <a href="?page=sisterpet"><button type="btn-group" class="btn btn-defaul">Sister & Pet Dolls</button></a>
+          <a href="?page=careerdoll"><button type="btn-group" class="btn btn-defaul">Career Dolls</button></a>
+          <a href="?page=magicdoll"><button type="btn-group" class="btn btn-defaul">Magic Dolls</button></a>
+          <a href="?page=clothes"><button type="btn-group" class="btn btn-defaul">Doll Clothes</button></a>
+          <a href="?page=playsets"><button type="btn-group" class="btn btn-defaul">Playsets</button></a>
           <a href="?page=category_management"><button type="btn-group" class="btn btn-defaul">Management Category</button></a>
           <a href="?page=product_management"><button type="btn-group" class="btn btn-defaul">Management Product</button></a>
           <br>
@@ -114,29 +114,29 @@
           else if($page=="logout"){
             include_once("logout.php");
           }
-          else if($page=="lv"){
-            include_once("lv.php");
+          else if($page=="fashiondoll"){
+            include_once("FashionDoll.php");
           }
-          else if($page=="mcm"){
-            include_once("mcm.php");
+          else if($page=="kendoll"){
+            include_once("KenDoll.php");
           }
-          else if($page=="gucci"){
-            include_once("gucci.php");
+          else if($page=="siterpet"){
+            include_once("SisterPet.php");
           }
-          else if($page=="lelabo"){
-            include_once("lelabo.php");
+          else if($page=="careerdoll"){
+            include_once("CareerDoll.php");
           }
-          else if($page=="chanel"){
-            include_once("chanel.php");
+          else if($page=="magicdoll"){
+            include_once("MagicDoll.php");
           }
-          else if($page=="dior"){
-            include_once("dior.php");
+          else if($page=="clothes"){
+            include_once("Clothes.php");
           }
           else if($page=="allproduct"){
             include_once("allproduct.php");
           }
-          else if($page=="ortherproduct"){
-            include_once("ortherproduct.php");
+          else if($page=="playsets"){
+            include_once("Playsets.php");
           }
           else if($page=="category_management"){
             include_once("Category_Management.php");

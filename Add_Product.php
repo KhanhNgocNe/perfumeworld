@@ -21,7 +21,6 @@ if(isset($_POST["btnAdd"]))
 {
 	$id=$_POST["txtID"];
 	$proname=$_POST["txtName"];
-	$short=$_POST["txtShort"];
 	$detail=$_POST["txtDetail"];
 	$price=$_POST["txtPrice"];
 	$qty=$_POST["txtQty"];
@@ -59,7 +58,7 @@ if(isset($_POST["btnAdd"]))
 					$filePic=$pic['name'];
 					$sqlstring="INSERT INTO product(product_id,product_name,price,smalldesc,
 					detaildesc,prodate,pro_qty,pro_image, cat_id)
-					VALUES ('$id','$proname','$price','$short','$detail','".date('Y-m-d H:i:s')."',
+					VALUES ('$id','$proname','$price','$detail','".date('Y-m-d H:i:s')."',
 					'$qty','$filePic','$category')";
 					pg_query($conn,$sqlstring);
 					echo'<meta http-equiv="refresh" content="0;URL=?page=product_management"/>';	
@@ -108,13 +107,6 @@ if(isset($_POST["btnAdd"]))
 							      <input type="text" name="txtPrice" id="txtPrice" class="form-control" placeholder="Price" value=''/>
 							</div>
                  </div>   
-                            
-                <div class="form-group">   
-                    <label for="lblShort" class="col-sm-2 control-label">Short description(*):  </label>
-							<div class="col-sm-10">
-							      <input type="text" name="txtShort" id="txtShort" class="form-control" placeholder="Short description" value=''/>
-							</div>
-                </div>
                             
                 <div class="form-group">  
         	        <label for="lblDetail" class="col-sm-2 control-label">Detail description(*):  </label>
