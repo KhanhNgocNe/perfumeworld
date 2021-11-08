@@ -106,6 +106,7 @@ include_once("connection.php");
         </div>
       </div>
     </div>
+    <br>
       <div class="row">
         <div class="col-sm-3">
           <div class="product">
