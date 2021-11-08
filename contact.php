@@ -20,7 +20,7 @@
                     </dl>
                     <dl class="contact-list">
                       <dt>email:</dt>
-                      <dd><a href="mailto:#">ngocdk@gmail.com</a></dd>
+                      <dd><a href="mailto:#">atncompany@gmail.com</a></dd>
                     </dl>
                     <dl class="contact-list">
                       <dt>phones:</dt>
